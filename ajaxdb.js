@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('input#name-submit').on('click',function(){
+  $('input#name').on('keyup',function(){
 
     // var thisval = $(this).val();
     // console.log(thisval);
@@ -12,7 +12,7 @@ $(document).ready(function(){
 // step 2: send to php file
     if($.trim(name) != '') {
 
-        $.post('/p/name.php',{name: name}, function(data) {
+        $.post('/p/name.php',{"name": name}, function(data) {
               //place returned data into the div
               $('.name-data').text(data);
         });
