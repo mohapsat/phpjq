@@ -12,4 +12,4 @@ Return the value from a desired column from a mysql database based on the data p
   3. query the database
   4. check if #rows returned in the query object are not equal to 0
   5. if not 0, echo the result.
-  6. ajaxdb.js picks the name from the post methood using a json and passes it to an anonymous function that updates the text attribute of the name-data id.
+  6. ajaxdb.js picks the name from the post method using a json and passes it to an anonymous function that passes it to name.php and updates the text attribute of the name-data id with the value returned by name.php
