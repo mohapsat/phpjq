@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mohapsat/phpjq.svg?branch=branch_nobutton)](https://travis-ci.org/mohapsat/phpjq)
+
 ##Purpose:
 Return the value from a desired column from a mysql database based on the data passed in a text input.
 
